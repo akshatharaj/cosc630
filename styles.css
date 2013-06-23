@@ -1,0 +1,211 @@
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+}
+
+header,footer,
+article,section,
+hgroup,nav,
+figure{
+	/* Giving a display value to the HTML5 rendered elements: */
+	display:block;
+}
+
+body{
+	/* Setting the default text color, size, page background and a font stack: */
+	background-image: url('img/bg.png');
+	font-size:0.825em;
+	color:#000000;
+	background-color:#BDBDBD;
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Hyperlink Styles: */
+
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a img{
+	border:none;
+}
+
+/* Headings: */
+
+h1,h2,h3{
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+	/* The logo text */
+	font-size:2.5em;
+	padding:0.5em 0 0;
+	text-transform:uppercase;
+	color: #CF5C3F;
+	margin-top: 2px;
+}
+
+h3{
+	/* The slogan text */
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size:1em;
+	font-weight:normal;
+	margin:0 0 1em;
+}
+
+
+h2{
+	font-size:2.0em;
+	font-weight:normal;
+	letter-spacing:0.01em;
+	
+	font: #CF5C3F;
+}
+
+p{
+	line-height:1.5em;
+	padding-bottom:1em;
+}
+
+
+article .line{
+	/* The dividing line inside of the article is darker: */
+	background-color:#15242a;
+	border-bottom-color:#204656;
+	margin:1.3em 0;
+}
+
+article h2{
+    color: #CF5C3F;
+}
+
+footer .line{
+	margin:2em 0;
+}
+
+nav{
+	margin-top: 10px;
+	background: repeat-x 50% 50% #666;
+	padding:0 5px;
+	position:absolute;
+	right:0;
+	top:4em;
+	border:1px solid #FCFCFC;
+}
+
+/* The clearfix hack to clear the floats: */
+
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* The navigation styling: */
+
+nav ul li{
+	display:inline;
+}
+
+nav ul li a,
+nav ul li a:visited{
+	color:#FFFFFF;
+	display:block;
+	float:left;
+	font-size:1.25em;
+	font-weight:bold;
+	margin:5px 2px;
+	padding:7px 10px 4px;
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;		
+}
+
+nav ul li a:hover{
+	text-decoration:none;
+	background-color:#CF5C3F;
+}
+
+nav, article, nav ul li a,figure{
+	/* Applying CSS3 rounded corners: */
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+/* Article styles: */
+
+#page{
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+
+article{
+	background-color:#FFFFFF;
+	margin:4em 0;
+	padding:20px;
+	
+	
+}
+
+figure{
+	border:3px solid #142830;
+	float:right;
+	height:200px;
+	margin-left:15px;
+	overflow:hidden;
+	width:200px;
+}
+
+figure:hover{
+	box-shadow:0 0 2px #4D7788;
+}
+
+figure img{
+	margin-left:0px;
+}
+
+/* Footer styling: */
+
+footer{
+	margin-bottom:30px;
+	text-align:center;
+	font-size:0.825em;
+}
+
+
+footer p{
+	margin-bottom:-2.5em;
+	position:relative;
+}
+
+footer a,footer a:visited{
+	color:#FFFFFF;
+	background-color:#666;
+	display:block;
+	padding:2px 4px;
+	z-index:100;
+	position:relative;
+}
+
+footer a:hover{
+	text-decoration:none;
+	background-color:#CF5C3F;
+}
+
+footer a.by{
+	float:left;
+
+}
+
+footer a.up{
+	float:right;
+}
