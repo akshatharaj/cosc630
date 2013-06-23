@@ -1,0 +1,95 @@
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-image: url('img/bg.png');
+	font-size:0.825em;
+	color:#000000;
+	background-color:#BDBDBD;
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#page{
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+
+.mainHeader nav {
+	background: #666;
+	font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	
+.mainHeader nav ul {
+	list-style: none; 
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left; 
+	display: inline; 
+}
+	
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 23px;
+	text-decoration: none;
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background: #CF5C3F;
+	color: #fff;
+	text-shadow: none !important;
+}
+	
+.mainHeader nav li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader img {
+	width: 30%;
+	height: auto;
+	margin: 3% 0;
+}
+
+
+
+.mainContent {
+	overflow: hidden;
+	line-height: 25px;
+	border-radius: 5px;
+	background-color:#FFFFFF;
+	margin:4em 0;
+	padding:20px;
+}
+
+
+
+
+.mainFooter {
+    
+	width: 100%;
+	background-color: #666;
+	border-radius: 3px;	
+	color: #FFF;	
+}
+
+.mainFooter p {
+	width: 91%;
+	margin: 2% auto;
+	text-align: center;
+}
