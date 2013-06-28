@@ -26,8 +26,6 @@ body {
 	margin: 0 auto 30px auto;
 	text-align: center;
 	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
 }
 	
 .mainHeader nav ul {
@@ -70,10 +68,10 @@ body {
 
 .mainContent {
 	overflow: hidden;
-	line-height: 25px;
+	line-height: 30px;
 	border-radius: 5px;
 	background-color:#FFFFFF;
-	margin:4em 0;
+	margin:1em 0;
 	padding:20px;
 }
 
