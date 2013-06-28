@@ -212,3 +212,12 @@ footer a.by{
 footer a.up{
 	float:right;
 }
+
+.project_description{
+        text-align: justify;
+}
+
+.click_to_view{
+        font-size: 10px;
+        color: #6B6B6B;
+}
